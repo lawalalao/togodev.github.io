@@ -21,7 +21,8 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: yellow; }
+    .attribution a { color: #ffffff; }
+    .attribution a:hover {color:#0f6e53}
   </style>
 </head>
 <body>
@@ -29,7 +30,7 @@
   <div class="container">
 
     <div class="logo">
-      <h3>togo developper</h3>
+      <img src="./images/tgdev-logo-horiz2.png" alt="logo togo developpers">
     </div>
 
     <div class="wrapper">
@@ -39,11 +40,24 @@
       </div>
   
       <div class="desc">
-        <h1>créer une puissante communauté de developpeurs au TOGO</h1>
+        <h1>Former un grand nombre de developpeurs et en créer une puissante communauté de developpeurs au TOGO</h1>
         <p>
-          togo developpers réinvente l'image des développeurs Togolais.   Créez des liens entre les développeurs tout en s'engageant dans une véritable transformation du domaine .
+          togo developpers réinvente l'image des développeurs Togolais .   Créez des liens entre les développeurs tout en s'engageant dans une véritable transformation du domaine .
         </p>
-        <button title="Register">En Cours ...</button>
+        <div class="signup-form">
+            <div class="tryit-banner">
+                <p>Envie d'en savoir plus ? </p>
+            </div>
+    
+            <form action="https://formspree.io/f/xnqozrvp" method="POST"">
+                <input type="text" name="name" placeholder="Nom">
+                <input type="text" name="name" placeholder="Prenom">
+                <input type="email" name="_replyto"placeholder="Addresse email" required>
+               
+                <button class="button">Envoyez</button>
+                
+            </form>
+        </div>
       </div>
 
     </div>
@@ -64,10 +78,8 @@
 
   <footer>
     <p class="attribution">
-      Copyrights <a href="https://togodevelopers.com" target="_blank">togo developpers</a>. 
-      Code par 
-<a href="https://twitter.com/AdechinaAlao">@lawal</a>
- & <a href="http://www.twitter.com/doncredas">@Komlanvi</a>
+      Copyrights <a href="http://togodevelopers.com" target="_blank">togo developpers</a>. 
+     
     </p>
   </footer>
 </body>
