@@ -19,6 +19,68 @@ body{
     height: 3em;
     margin-bottom: 3em;
 }
+.tryit-banner {
+    background-color: #1E90FF;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    
+}
+
+.tryit-banner p {
+    padding: 15px 0;
+}
+
+input,
+button {
+    font-family: 'Allerta Stencil',
+        sans-serif;
+}
+
+form {
+    background-color: #fff;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    padding-left: 20px;
+    font-weight: 600;
+    border: 1px solid hsl(245, 35%, 87%);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.1s;
+}
+
+input:hover {
+    border: 1px solid hsl(246, 25%, 77%);
+}
+
+.button {
+    background-color: white;
+    font-family: 'Allerta Stencil',
+        sans-serif;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
+    padding: 15px 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
 
 /* Hero Section */
 .wrapper{
@@ -58,7 +120,7 @@ body{
 .desc button:hover{
     box-shadow: none;
     background-color:
-    yellow;
+    #021a33;
 }
 .signup-form input{
     color:black;
@@ -107,10 +169,19 @@ footer a :hover{
         background: url(../images/bg-mobile.svg) hsl(257, 40%, 49%) no-repeat;
         background-size: 100%;
     }
-    .signup-form{
-        display:flex;
-        flex-direction: column;
-    }
+     .signup-form {
+         display:flex;
+         flex-direction: column;
+         width: 90%;
+         justify-content: center;
+         font-family: 'Allerta Stencil',sans-serif;
+
+     }
+
+     form {
+         padding: 40px;
+     }
+
     .logo img{
         width: 42%;
         height: auto;
